@@ -1,0 +1,15 @@
+# Control Bento
+
+Bento-style reference for ISO/IEC 27001:2022 Annex A controls. The dataset is provided as machine-readable JSON and the UI surfaces summaries and implementation guidance.
+
+## Data
+- controls.json (all 93 controls with overview, core points, in practice, and evidence examples)
+
+## Pages
+- index.html (main UI)
+
+## Updates
+Last updated: 2026-02-12
+
+## Usage
+Please reference the control ID and title when citing content.
