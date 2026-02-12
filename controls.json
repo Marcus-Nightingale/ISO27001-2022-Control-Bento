@@ -1,0 +1,1490 @@
+{
+  "A.5.1": {
+    "title": "Policies for Information Security",
+    "overview": "This control requires the organisation to establish, approve and maintain a formal information security policy. The policy defines the overall direction for information security and demonstrates senior management commitment to protecting information assets.",
+    "core_points": "The information security policy must be formally documented and approved by top management. It should align with the organisation's objectives and risk profile, set clear security principles, and define high-level expectations for protecting data and systems. The policy must be communicated to relevant personnel and reviewed periodically to ensure it remains appropriate and effective.",
+    "in_practice": "The organisation maintains a formally approved Information Security Policy that sets strategic security direction. The document is version controlled, assigned an owner, reviewed at defined intervals, and accessible to employees through internal systems or onboarding processes.",
+    "evidence_examples": [
+      "Approved Information Security Policy document",
+      "Documented management approval",
+      "Policy review and version history records"
+    ],
+    "type": "organizational",
+    "desc": "Define and maintain an information security policy framework.",
+    "summary": "Establish, approve, publish, and maintain top-level information security policies aligned to business objectives.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-1-information-security-policies-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-1-policies/"
+  },
+  "A.5.2": {
+    "title": "Information Security Roles and Responsibilities",
+    "overview": "This control requires the organisation to clearly define and assign information security roles and responsibilities. Accountability for protecting information must be formally allocated to ensure effective governance and operational control.",
+    "core_points": "Information security responsibilities must be documented and communicated so individuals understand what they are accountable for. Roles should reflect the organisation's structure, risk environment and size. Duties must be appropriately segregated where necessary to reduce the risk of misuse or error.",
+    "in_practice": "Security responsibilities are embedded into defined roles such as ISMS lead, system owners, access approvers and incident coordinators. These responsibilities are included in formal documentation such as job descriptions or governance frameworks and are reviewed when organisational or operational changes occur.",
+    "evidence_examples": [
+      "Documented role descriptions including security responsibilities",
+      "ISMS or security governance structure",
+      "Organisational chart showing accountability"
+    ],
+    "type": "organizational",
+    "desc": "Assign and document security roles and responsibilities.",
+    "summary": "Assign and document security roles and responsibilities.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-2-information-security-roles-responsibilities-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-2-information-security-roles-and-responsibilities/"
+  },
+  "A.5.3": {
+    "title": "Segregation of Duties",
+    "overview": "This control requires the organisation to separate conflicting duties and areas of responsibility to reduce the risk of error, fraud or unauthorised activity. Where full segregation is not possible, alternative controls must be implemented to mitigate risk.",
+    "core_points": "Conflicting responsibilities should not be assigned to the same individual where this creates risk. Activities such as development and production access, request and approval, or transaction initiation and authorisation should be separated where feasible. When organisational size or structure prevents full segregation, compensating controls such as monitoring, logging or independent review must be applied.",
+    "in_practice": "Access to production systems is restricted and controlled separately from development environments. Administrative privileges are limited and monitored. High-risk actions require secondary approval or oversight, and activity logs are reviewed to detect misuse or anomalies.",
+    "evidence_examples": [
+      "Role and access control matrix",
+      "Access approval and review records",
+      "Monitoring or audit log review documentation"
+    ],
+    "type": "organizational",
+    "desc": "Separate conflicting duties to reduce fraud or error.",
+    "summary": "Separate conflicting duties to reduce fraud or error.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-3-segregation-of-duties-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-3-segregation-of-duties/"
+  },
+  "A.5.4": {
+    "title": "Management Responsibilities",
+    "overview": "This control requires management to ensure that personnel apply information security in accordance with the organisation's established policies and procedures. Managers are responsible for reinforcing security expectations within their areas of responsibility.",
+    "core_points": "Managers must ensure that employees and contractors understand their information security responsibilities. This includes ensuring appropriate training, enforcing policy compliance, and addressing non-conformance where necessary. Security requirements should be integrated into day-to-day supervision and operational oversight.",
+    "in_practice": "Line managers reinforce security expectations during onboarding, performance reviews and operational management. Policy compliance is monitored within teams, and any breaches or weaknesses are escalated and addressed. Security awareness is treated as an ongoing management responsibility rather than a one-time activity.",
+    "evidence_examples": [
+      "Security awareness training records",
+      "Manager-led policy acknowledgements",
+      "Records of disciplinary or corrective actions"
+    ],
+    "type": "organizational",
+    "desc": "Ensure management enforces security expectations and compliance.",
+    "summary": "Ensure management enforces security expectations and compliance.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-4-management-responsibilities-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-4-management-responsibilities/"
+  },
+  "A.5.5": {
+    "title": "Contact with Authorities",
+    "overview": "This control requires the organisation to establish and maintain appropriate contact with relevant authorities to ensure timely communication in the event of security incidents or regulatory matters.",
+    "core_points": "Relevant regulatory, supervisory and law enforcement contacts must be identified and maintained. Communication channels should support timely reporting of incidents or compliance obligations.",
+    "in_practice": "The organisation maintains documented contact details for regulators, law enforcement and supervisory bodies. Reporting procedures define when and how authorities are contacted.",
+    "evidence_examples": [
+      "Documented authority contact list",
+      "Incident reporting procedures",
+      "Records of regulatory communications"
+    ],
+    "type": "organizational",
+    "desc": "Maintain contact procedures with relevant authorities.",
+    "summary": "Maintain contact procedures with relevant authorities.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-5-contact-with-government-authorities-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-5-contact-with-authorities/"
+  },
+  "A.5.6": {
+    "title": "Contact with Special Interest Groups",
+    "overview": "This control requires the organisation to maintain appropriate contact with special interest groups or professional associations to stay informed about security developments.",
+    "core_points": "Engagement with industry groups, forums or threat intelligence communities supports awareness of emerging risks and best practice.",
+    "in_practice": "Security personnel monitor industry alerts, participate in forums or subscribe to threat intelligence sources to inform risk management decisions.",
+    "evidence_examples": [
+      "Threat intelligence subscriptions",
+      "Industry membership records",
+      "Security advisory monitoring logs"
+    ],
+    "type": "organizational",
+    "desc": "Engage with security forums and professional groups.",
+    "summary": "Engage with security forums and professional groups.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-6-contact-with-special-interest-groups-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-6-contact-with-special-interest-groups/"
+  },
+  "A.5.7": {
+    "title": "Threat Intelligence",
+    "overview": "This control requires the organisation to collect and analyse information about information security threats relevant to its operations.",
+    "core_points": "Threat intelligence should be relevant, actionable and used to inform risk assessment and control implementation.",
+    "in_practice": "Threat feeds and advisories are reviewed regularly, and relevant intelligence is incorporated into risk registers, patch management or defensive configurations.",
+    "evidence_examples": [
+      "Threat monitoring procedures",
+      "Risk register updates",
+      "Vulnerability management records"
+    ],
+    "type": "organizational",
+    "desc": "Collect and analyze threat intelligence sources.",
+    "summary": "Collect and analyze threat intelligence sources.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-7-threat-intelligence-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-7-threat-intelligence/"
+  },
+  "A.5.8": {
+    "title": "Information Security in Project Management",
+    "overview": "This control requires information security to be integrated into project management activities to ensure risks are addressed from the outset.",
+    "core_points": "Security requirements must be identified, assessed and managed throughout the project lifecycle.",
+    "in_practice": "Projects include security risk assessments, secure design reviews and defined security acceptance criteria before go-live.",
+    "evidence_examples": [
+      "Project security checklists",
+      "Risk assessments within projects",
+      "Secure design review records"
+    ],
+    "type": "organizational",
+    "desc": "Integrate security into project planning and delivery.",
+    "summary": "Integrate security into project planning and delivery.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-8-information-security-in-project-management-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-8-information-security-in-project-management/"
+  },
+  "A.5.9": {
+    "title": "Inventory of Information and Other Associated Assets",
+    "overview": "This control requires the organisation to identify and maintain an inventory of information and associated assets.",
+    "core_points": "Assets must be recorded, classified and assigned an owner responsible for their protection.",
+    "in_practice": "The organisation maintains an asset register covering systems, data, infrastructure and critical services with defined ownership.",
+    "evidence_examples": [
+      "Asset inventory register",
+      "Asset ownership assignments",
+      "Periodic asset review records"
+    ],
+    "type": "organizational",
+    "desc": "Maintain an inventory of information and assets.",
+    "summary": "Maintain an inventory of information and assets.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-9-inventory-of-information-other-associated-assets-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-9-inventory-of-information-and-other-associated-assets/"
+  },
+  "A.5.10": {
+    "title": "Acceptable Use of Information and Other Associated Assets",
+    "overview": "This control requires rules for the acceptable use of information and assets to be defined and communicated.",
+    "core_points": "Users must understand permitted and prohibited activities relating to organisational systems and information.",
+    "in_practice": "Acceptable use policies are acknowledged by employees and enforced through monitoring and disciplinary processes where necessary.",
+    "evidence_examples": [
+      "Acceptable use policy document",
+      "User acknowledgements",
+      "Monitoring or enforcement records"
+    ],
+    "type": "organizational",
+    "desc": "Define acceptable use rules for assets.",
+    "summary": "Define acceptable use rules for assets.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-10-acceptable-use-of-information-other-associated-assets-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-10-acceptable-use-of-information-and-other-associated-assets/"
+  },
+  "A.5.11": {
+    "title": "Return of Assets",
+    "overview": "This control requires organisational assets to be returned upon termination or change of employment.",
+    "core_points": "Procedures must ensure equipment, credentials and data access are revoked or returned promptly.",
+    "in_practice": "Offboarding checklists include asset return, account deactivation and confirmation of access removal.",
+    "evidence_examples": [
+      "Offboarding procedure",
+      "Asset return records",
+      "Access revocation logs"
+    ],
+    "type": "organizational",
+    "desc": "Ensure assets are returned on role change or exit.",
+    "summary": "Ensure assets are returned on role change or exit.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-11-return-of-assets-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-11-return-of-assets/"
+  },
+  "A.5.12": {
+    "title": "Classification of Information",
+    "overview": "This control requires information to be classified based on legal requirements, value and sensitivity.",
+    "core_points": "Classification categories must be defined and consistently applied to ensure appropriate protection.",
+    "in_practice": "Information is labelled according to defined classification levels, guiding handling, storage and sharing requirements.",
+    "evidence_examples": [
+      "Information classification policy",
+      "Document labelling examples",
+      "Data handling procedures"
+    ],
+    "type": "organizational",
+    "desc": "Classify information by sensitivity and criticality.",
+    "summary": "Classify information by sensitivity and criticality.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-12-classification-of-information-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-12-classification-of-information/"
+  },
+  "A.5.13": {
+    "title": "Labelling of Information",
+    "overview": "This control requires information to be appropriately labelled in accordance with its classification.",
+    "core_points": "Labelling supports correct handling, storage and transmission of information.",
+    "in_practice": "Documents, digital records and systems reflect classification labels where required.",
+    "evidence_examples": [
+      "Labelled document samples",
+      "System classification tagging",
+      "Policy defining labelling standards"
+    ],
+    "type": "organizational",
+    "desc": "Label information based on its classification.",
+    "summary": "Label information based on its classification.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-13-labelling-of-information-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-13-labelling-of-information/"
+  },
+  "A.5.14": {
+    "title": "Information Transfer",
+    "overview": "This control requires the organisation to establish rules for the secure transfer of information internally and externally.",
+    "core_points": "Transfer methods must ensure confidentiality, integrity and traceability of information.",
+    "in_practice": "Encrypted channels are used for sensitive data transfer, and agreements define security expectations with third parties.",
+    "evidence_examples": [
+      "Information transfer policy",
+      "Encryption configuration records",
+      "Data sharing agreements"
+    ],
+    "type": "organizational",
+    "desc": "Protect information during transfer and sharing.",
+    "summary": "Protect information during transfer and sharing.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-14-information-transfer-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-14-information-transfer/"
+  },
+  "A.5.15": {
+    "title": "Access Control",
+    "overview": "This control requires rules to be defined and implemented to restrict access to information and systems based on business and security requirements.",
+    "core_points": "Access must follow the principles of least privilege and need-to-know, supported by defined approval and review processes.",
+    "in_practice": "User access is formally requested, approved and periodically reviewed. Privileged access is restricted and monitored.",
+    "evidence_examples": [
+      "Access control policy",
+      "User access review records",
+      "Privileged access monitoring logs"
+    ],
+    "type": "organizational",
+    "desc": "Establish access control rules and principles.",
+    "summary": "Establish access control rules and principles.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-15-access-control-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-15-access-control/"
+  },
+  "A.5.16": {
+    "title": "Identity Management",
+    "overview": "This control requires processes to manage digital identities throughout their lifecycle to ensure accountability and secure access.",
+    "core_points": "Identities must be uniquely assigned, formally approved, and managed from creation through modification to removal.",
+    "in_practice": "User accounts are created through defined workflows, linked to individuals, and removed or updated promptly when roles change.",
+    "evidence_examples": [
+      "Identity lifecycle procedure",
+      "User provisioning records",
+      "Access removal confirmations"
+    ],
+    "type": "organizational",
+    "desc": "Manage identities across the lifecycle.",
+    "summary": "Manage identities across the lifecycle.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-16-identity-management-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-16-identity-management/"
+  },
+  "A.5.17": {
+    "title": "Authentication Information",
+    "overview": "This control requires authentication information to be properly managed and protected.",
+    "core_points": "Credentials must be kept confidential, securely stored, and never shared. Secure authentication mechanisms must be enforced.",
+    "in_practice": "Strong password policies and MFA are enforced, and credential storage follows secure configuration standards.",
+    "evidence_examples": [
+      "Password policy",
+      "MFA enforcement settings",
+      "Secure configuration documentation"
+    ],
+    "type": "organizational",
+    "desc": "Protect and manage authentication credentials.",
+    "summary": "Protect and manage authentication credentials.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-17-authentication-information-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-17-authentication-information/"
+  },
+  "A.5.18": {
+    "title": "Access Rights",
+    "overview": "This control requires access rights to be provisioned, reviewed and revoked in line with business requirements.",
+    "core_points": "Access must be formally approved, regularly reviewed and removed when no longer required.",
+    "in_practice": "Periodic access reviews are conducted and documented, and changes in role trigger reassessment of permissions.",
+    "evidence_examples": [
+      "Access request forms",
+      "Access review reports",
+      "Revocation logs"
+    ],
+    "type": "organizational",
+    "desc": "Provision, review, and revoke access rights.",
+    "summary": "Provision, review, and revoke access rights.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-18-access-rights-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-18-access-rights/"
+  },
+  "A.5.19": {
+    "title": "Information Security in Supplier Relationships",
+    "overview": "This control requires information security requirements to be addressed in supplier relationships.",
+    "core_points": "Security expectations must be defined contractually and aligned with organisational risk.",
+    "in_practice": "Supplier contracts include security clauses and due diligence is performed before onboarding.",
+    "evidence_examples": [
+      "Supplier risk assessments",
+      "Security clauses in contracts",
+      "Due diligence records"
+    ],
+    "type": "organizational",
+    "desc": "Define security requirements for suppliers.",
+    "summary": "Define security requirements for suppliers.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-19-information-security-supplier-relationships-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-19-information-security-in-supplier-relationships/"
+  },
+  "A.5.20": {
+    "title": "Addressing Information Security within Supplier Agreements",
+    "overview": "This control requires information security requirements to be agreed and documented with suppliers.",
+    "core_points": "Agreements must clearly define security controls, responsibilities and incident obligations.",
+    "in_practice": "Data processing and security addendums are signed and reviewed periodically.",
+    "evidence_examples": [
+      "Signed security agreements",
+      "Data processing agreements",
+      "Contract review records"
+    ],
+    "type": "organizational",
+    "desc": "Include security clauses in supplier agreements.",
+    "summary": "Include security clauses in supplier agreements.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-20-information-security-within-supplier-agreements-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-20-addressing-information-security-within-supplier-agreements/"
+  },
+  "A.5.21": {
+    "title": "Managing Information Security in the ICT Supply Chain",
+    "overview": "This control requires risks in the ICT supply chain to be identified and managed.",
+    "core_points": "Supply chain dependencies must be assessed for security risk and monitored appropriately.",
+    "in_practice": "Critical technology suppliers are risk-rated and reassessed based on impact and exposure.",
+    "evidence_examples": [
+      "Supply chain risk register",
+      "Supplier reassessment records",
+      "Critical supplier list"
+    ],
+    "type": "organizational",
+    "desc": "Manage ICT supply chain security risks.",
+    "summary": "Manage ICT supply chain security risks.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-21-managing-information-security-ict-supply-chain-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-21-managing-information-security-in-the-ict-supply-chain/"
+  },
+  "A.5.22": {
+    "title": "Monitoring, Review and Change Management of Supplier Services",
+    "overview": "This control requires ongoing monitoring of supplier services to ensure security requirements remain effective.",
+    "core_points": "Supplier performance and security compliance must be reviewed regularly.",
+    "in_practice": "Supplier reviews are scheduled, and changes to services trigger risk reassessment.",
+    "evidence_examples": [
+      "Supplier review meeting records",
+      "Performance reports",
+      "Change assessment documentation"
+    ],
+    "type": "organizational",
+    "desc": "Monitor and manage changes to supplier services.",
+    "summary": "Monitor and manage changes to supplier services.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-22-monitoring-review-change-management-of-supplier-services-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-22-monitor-review-and-change-management-of-supplier-services/"
+  },
+  "A.5.23": {
+    "title": "Information Security for Use of Cloud Services",
+    "overview": "This control requires security requirements to be defined and managed when using cloud services.",
+    "core_points": "Cloud services must be risk assessed and configured securely in line with policy.",
+    "in_practice": "Cloud environments are hardened, monitored and governed under defined security baselines.",
+    "evidence_examples": [
+      "Cloud risk assessments",
+      "Secure configuration baselines",
+      "Cloud monitoring reports"
+    ],
+    "type": "organizational",
+    "desc": "Set and monitor cloud security controls.",
+    "summary": "Set and monitor cloud security controls.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-23-information-security-use-of-cloud-services-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-23-information-security-for-use-of-cloud-services/"
+  },
+  "A.5.24": {
+    "title": "Information Security Incident Management Planning and Preparation",
+    "overview": "This control requires the organisation to establish and maintain incident management procedures.",
+    "core_points": "Incident response processes must be documented, tested and supported by defined roles.",
+    "in_practice": "An incident response plan is maintained, and exercises or simulations are performed.",
+    "evidence_examples": [
+      "Incident response plan",
+      "Incident playbooks",
+      "Testing or tabletop records"
+    ],
+    "type": "organizational",
+    "desc": "Plan and prepare incident management capability.",
+    "summary": "Plan and prepare incident management capability.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-24-incident-management-planning-and-preparation-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-24-information-security-incident-management-planning-and-preparation/"
+  },
+  "A.5.25": {
+    "title": "Assessment and Decision on Information Security Events",
+    "overview": "This control requires events to be assessed to determine whether they constitute incidents.",
+    "core_points": "Clear criteria must exist for escalation and classification.",
+    "in_practice": "Security events are triaged according to documented severity criteria.",
+    "evidence_examples": [
+      "Event classification criteria",
+      "Incident logs",
+      "Escalation records"
+    ],
+    "type": "organizational",
+    "desc": "Assess events and decide escalation to incidents.",
+    "summary": "Assess events and decide escalation to incidents.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-25-assessment-decision-information-security-events-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-25-assessment-and-decision-on-information-security-events/"
+  },
+  "A.5.26": {
+    "title": "Response to Information Security Incidents",
+    "overview": "This control requires incidents to be responded to in accordance with defined procedures.",
+    "core_points": "Response actions must aim to contain, eradicate and recover from incidents.",
+    "in_practice": "Incident handlers follow documented containment and recovery steps.",
+    "evidence_examples": [
+      "Incident reports",
+      "Root cause analysis records",
+      "Corrective action plans"
+    ],
+    "type": "organizational",
+    "desc": "Respond to incidents with defined procedures.",
+    "summary": "Respond to incidents with defined procedures.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-26-response-to-information-security-incidents-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-26-response-to-information-security-incidents/"
+  },
+  "A.5.27": {
+    "title": "Learning from Information Security Incidents",
+    "overview": "This control requires lessons learned from incidents to improve controls.",
+    "core_points": "Post-incident reviews must identify improvements and prevent recurrence.",
+    "in_practice": "After-action reviews result in documented control enhancements.",
+    "evidence_examples": [
+      "Post-incident review reports",
+      "Updated risk assessments",
+      "Improvement tracking logs"
+    ],
+    "type": "organizational",
+    "desc": "Capture lessons and improve controls.",
+    "summary": "Capture lessons and improve controls.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-27-learning-from-information-security-incidents-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-27-learning-from-information-security-incidents/"
+  },
+  "A.5.28": {
+    "title": "Collection of Evidence",
+    "overview": "This control requires procedures to identify, collect and preserve evidence related to incidents.",
+    "core_points": "Evidence must be preserved in a manner that maintains integrity and admissibility.",
+    "in_practice": "Logs and forensic data are secured and access controlled during investigations.",
+    "evidence_examples": [
+      "Forensic handling procedures",
+      "Chain of custody records",
+      "Secure log storage"
+    ],
+    "type": "organizational",
+    "desc": "Collect and preserve evidence appropriately.",
+    "summary": "Collect and preserve evidence appropriately.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-28-collection-of-evidence-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-28-collection-of-evidence/"
+  },
+  "A.5.29": {
+    "title": "Information Security During Disruption",
+    "overview": "This control requires information security to be maintained during business disruption.",
+    "core_points": "Security controls must remain effective under continuity arrangements.",
+    "in_practice": "Business continuity plans incorporate security requirements.",
+    "evidence_examples": [
+      "Business continuity plan",
+      "Disaster recovery testing records",
+      "Continuity risk assessments"
+    ],
+    "type": "organizational",
+    "desc": "Protect information during disruptions and crises.",
+    "summary": "Protect information during disruptions and crises.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-29-information-security-during-disruption-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-29-information-security-during-disruption/"
+  },
+  "A.5.30": {
+    "title": "ICT Readiness for Business Continuity",
+    "overview": "This control requires ICT systems to support business continuity requirements.",
+    "core_points": "Systems must be resilient, recoverable and tested.",
+    "in_practice": "Backups, redundancy and recovery time objectives are defined and validated.",
+    "evidence_examples": [
+      "Backup policies",
+      "Recovery test results",
+      "RTO/RPO documentation"
+    ],
+    "type": "organizational",
+    "desc": "Ensure ICT can support continuity requirements.",
+    "summary": "Ensure ICT can support continuity requirements.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-30-readiness-for-business-continuity-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-30-ict-readiness-for-business-continuity/"
+  },
+  "A.5.31": {
+    "title": "Legal, Statutory, Regulatory and Contractual Requirements",
+    "overview": "This control requires relevant legal and regulatory requirements to be identified and complied with.",
+    "core_points": "Applicable obligations must be documented and reflected in controls.",
+    "in_practice": "A compliance register tracks laws such as data protection regulations and contractual obligations.",
+    "evidence_examples": [
+      "Compliance register",
+      "Legal obligation mapping",
+      "Regulatory audit records"
+    ],
+    "type": "organizational",
+    "desc": "Identify and track compliance obligations.",
+    "summary": "Identify and track compliance obligations.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-31-legal-statutory-regulatory-contractual-requirements-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-31-legal-statutory-regulatory-and-contractual-requirements/"
+  },
+  "A.5.32": {
+    "title": "Intellectual Property Rights",
+    "overview": "This control requires protection of intellectual property rights.",
+    "core_points": "Policies must prevent unauthorised use or distribution of proprietary materials.",
+    "in_practice": "Software licensing compliance and content usage policies are enforced.",
+    "evidence_examples": [
+      "IP protection policy",
+      "Software licence records",
+      "Compliance audits"
+    ],
+    "type": "organizational",
+    "desc": "Protect intellectual property and comply with rights.",
+    "summary": "Protect intellectual property and comply with rights.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-32-intellectual-property-rights-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-32-intellectual-property-rights/"
+  },
+  "A.5.33": {
+    "title": "Protection of Records",
+    "overview": "This control requires records to be protected from loss, destruction or falsification.",
+    "core_points": "Records must be retained and protected in accordance with requirements.",
+    "in_practice": "Retention schedules define storage duration and protection methods.",
+    "evidence_examples": [
+      "Retention policy",
+      "Secure storage controls",
+      "Record management logs"
+    ],
+    "type": "organizational",
+    "desc": "Protect records from loss or unauthorized access.",
+    "summary": "Protect records from loss or unauthorized access.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-33-protection-of-records-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-33-protection-of-records/"
+  },
+  "A.5.34": {
+    "title": "Privacy and Protection of Personally Identifiable Information",
+    "overview": "This control requires protection of personal data in accordance with legal requirements.",
+    "core_points": "Personal data must be processed lawfully and secured appropriately.",
+    "in_practice": "Data protection impact assessments and privacy controls are implemented where required.",
+    "evidence_examples": [
+      "Data protection policy",
+      "DPIA records",
+      "Privacy compliance documentation"
+    ],
+    "type": "organizational",
+    "desc": "Protect personal data and privacy.",
+    "summary": "Protect personal data and privacy.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-34-privacy-and-protection-of-pii-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-34-privacy-and-protection-of-pii/"
+  },
+  "A.5.35": {
+    "title": "Independent Review of Information Security",
+    "overview": "This control requires independent review of the organisation's information security approach.",
+    "core_points": "Reviews must assess effectiveness and compliance with policies.",
+    "in_practice": "Internal audits or external assessments evaluate the ISMS periodically.",
+    "evidence_examples": [
+      "Internal audit reports",
+      "External assessment reports",
+      "Corrective action plans"
+    ],
+    "type": "organizational",
+    "desc": "Conduct independent reviews of security.",
+    "summary": "Conduct independent reviews of security.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-35-independent-review-of-information-security-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-35-independent-review-of-information-security/"
+  },
+  "A.5.36": {
+    "title": "Compliance with Policies and Standards for Information Security",
+    "overview": "This control requires regular review of compliance with established policies and standards.",
+    "core_points": "Technical and procedural compliance must be verified.",
+    "in_practice": "Security controls are monitored and tested to confirm adherence.",
+    "evidence_examples": [
+      "Compliance monitoring reports",
+      "Control testing results",
+      "Remediation records"
+    ],
+    "type": "organizational",
+    "desc": "Monitor compliance with security policies and standards.",
+    "summary": "Monitor compliance with security policies and standards.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-36-compliance-policies-rules-standards-information-security-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-36-compliance-with-policies-rules-and-standards-for-information-security/"
+  },
+  "A.5.37": {
+    "title": "Documented Operating Procedures",
+    "overview": "This control requires operating procedures for information processing facilities to be documented and maintained.",
+    "core_points": "Procedures must be accurate, accessible and kept up to date.",
+    "in_practice": "Operational runbooks and system procedures are version controlled and reviewed periodically.",
+    "evidence_examples": [
+      "Operational runbooks",
+      "Procedure version history",
+      "Periodic review records"
+    ],
+    "type": "organizational",
+    "desc": "Document operating procedures for security-relevant activities.",
+    "summary": "Document operating procedures for security-relevant activities.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/5-37-documented-operating-procedures-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-5-37-documented-operating-procedures/"
+  },
+  "A.6.1": {
+    "title": "Screening",
+    "overview": "This control requires background verification checks on employees and relevant contractors prior to engagement, in accordance with applicable laws and regulations.",
+    "core_points": "Screening must be proportionate to the role, the sensitivity of information accessed, and associated risks.",
+    "in_practice": "Pre-employment checks such as identity verification, employment history and criminal record checks are conducted where appropriate before access is granted.",
+    "evidence_examples": [
+      "Screening policy",
+      "Background check records",
+      "Pre-employment verification documentation"
+    ],
+    "type": "people",
+    "desc": "Screen personnel in line with role risk.",
+    "summary": "Screen personnel in line with role risk.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/6-1-screening-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-6-1-screening/"
+  },
+  "A.6.2": {
+    "title": "Terms and Conditions of Employment",
+    "overview": "This control requires employment agreements to clearly define information security responsibilities.",
+    "core_points": "Employees and contractors must understand their obligations relating to confidentiality, acceptable use and compliance with security policies.",
+    "in_practice": "Contracts include confidentiality clauses and reference adherence to organisational information security policies.",
+    "evidence_examples": [
+      "Employment contracts with security clauses",
+      "Confidentiality agreements",
+      "Policy acknowledgement records"
+    ],
+    "type": "people",
+    "desc": "Define security responsibilities in employment terms.",
+    "summary": "Define security responsibilities in employment terms.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/6-2-terms-and-conditions-of-employment-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-6-2-terms-of-employment/"
+  },
+  "A.6.3": {
+    "title": "Information Security Awareness, Education and Training",
+    "overview": "This control requires personnel to receive appropriate information security awareness, education and training.",
+    "core_points": "Training must be relevant to roles and refreshed periodically to address evolving threats and risks.",
+    "in_practice": "Security awareness training is delivered during onboarding and at regular intervals, with completion tracked.",
+    "evidence_examples": [
+      "Training materials",
+      "Training completion records",
+      "Phishing simulation results"
+    ],
+    "type": "people",
+    "desc": "Provide security awareness and training.",
+    "summary": "Provide security awareness and training.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/6-3-information-security-awareness-education-training-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-6-3-information-security-awareness-education-and-training/"
+  },
+  "A.6.4": {
+    "title": "Disciplinary Process",
+    "overview": "This control requires a formal disciplinary process for violations of information security policies.",
+    "core_points": "Consequences of non-compliance must be defined and consistently applied.",
+    "in_practice": "Policy breaches are investigated and addressed through HR procedures in line with defined disciplinary measures.",
+    "evidence_examples": [
+      "Disciplinary policy",
+      "Incident investigation records",
+      "Corrective action documentation"
+    ],
+    "type": "people",
+    "desc": "Apply disciplinary measures for policy breaches.",
+    "summary": "Apply disciplinary measures for policy breaches.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/6-4-disciplinary-process-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-6-4-disciplinary-process/"
+  },
+  "A.6.5": {
+    "title": "Responsibilities after Termination or Change of Employment",
+    "overview": "This control requires information security responsibilities to continue after termination or role change where applicable.",
+    "core_points": "Confidentiality and legal obligations must remain enforceable after employment ends.",
+    "in_practice": "Exit processes include reaffirmation of confidentiality obligations and confirmation of access removal.",
+    "evidence_examples": [
+      "Offboarding checklist",
+      "Signed confidentiality agreements",
+      "Access revocation confirmations"
+    ],
+    "type": "people",
+    "desc": "Maintain obligations after exit or role change.",
+    "summary": "Maintain obligations after exit or role change.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/6-5-responsibilities-after-termination-change-of-employment-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-6-5-responsibilities-after-termination-or-change-of-employment/"
+  },
+  "A.6.6": {
+    "title": "Confidentiality or Non-Disclosure Agreements",
+    "overview": "This control requires confidentiality or non-disclosure agreements to protect sensitive information.",
+    "core_points": "Agreements must clearly define the scope of confidential information and duration of obligations.",
+    "in_practice": "Employees, contractors and third parties sign NDAs before being granted access to sensitive information.",
+    "evidence_examples": [
+      "Signed NDAs",
+      "Template confidentiality agreement",
+      "Third-party confidentiality clauses"
+    ],
+    "type": "people",
+    "desc": "Use NDAs to protect confidential information.",
+    "summary": "Use NDAs to protect confidential information.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/6-6-confidentiality-or-non-disclosure-agreements-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-6-6-confidentiality-or-non-disclosure-agreements/"
+  },
+  "A.6.7": {
+    "title": "Remote Working",
+    "overview": "This control requires security measures to protect information when personnel work remotely.",
+    "core_points": "Risks associated with remote environments must be assessed and mitigated through policy and technical controls.",
+    "in_practice": "Remote access is secured through VPN or secure gateways, MFA is enforced, and guidance is provided for secure home working.",
+    "evidence_examples": [
+      "Remote working policy",
+      "VPN and MFA configuration records",
+      "Remote access logs"
+    ],
+    "type": "people",
+    "desc": "Set controls for secure remote working.",
+    "summary": "Set controls for secure remote working.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/6-7-remote-working-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-6-7-remote-working/"
+  },
+  "A.6.8": {
+    "title": "Information Security Event Reporting",
+    "overview": "This control requires personnel to report observed or suspected information security events promptly.",
+    "core_points": "Clear reporting channels and escalation procedures must be defined and communicated.",
+    "in_practice": "Employees are trained on how to report security concerns, and reporting mechanisms such as ticketing systems or dedicated email addresses are maintained.",
+    "evidence_examples": [
+      "Event reporting procedure",
+      "Incident submission records",
+      "Security awareness communications"
+    ],
+    "type": "people",
+    "desc": "Require reporting of security events.",
+    "summary": "Require reporting of security events.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/6-8-information-security-event-reporting-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-6-8-information-security-event-reporting/"
+  },
+  "A.7.1": {
+    "title": "Physical Security Perimeters",
+    "overview": "This control requires physical security boundaries to be defined and used to protect information processing facilities and assets.",
+    "core_points": "Security perimeters must prevent unauthorised physical access, damage or interference.",
+    "in_practice": "Office spaces, data centres or secure areas are protected through controlled entry points, locks, badges or monitored access systems.",
+    "evidence_examples": [
+      "Physical security policy",
+      "Access control system records",
+      "Site security diagrams"
+    ],
+    "type": "physical",
+    "desc": "Establish physical security boundaries.",
+    "summary": "Establish physical security boundaries.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-1-physical-security-perimeters-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-7-1-physical-security-perimeters/"
+  },
+  "A.7.2": {
+    "title": "Physical Entry Controls",
+    "overview": "This control requires secure areas to be protected by appropriate entry controls.",
+    "core_points": "Access to sensitive areas must be restricted to authorised individuals only and logged where appropriate.",
+    "in_practice": "Badge systems, key cards or biometric controls restrict access to offices, server rooms or secure facilities.",
+    "evidence_examples": [
+      "Access badge records",
+      "Visitor logs",
+      "Entry control configuration documentation"
+    ],
+    "type": "physical",
+    "desc": "Control and monitor physical entry.",
+    "summary": "Control and monitor physical entry.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-2-physical-entry-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-7-2-physical-entry/"
+  },
+  "A.7.3": {
+    "title": "Securing Offices, Rooms and Facilities",
+    "overview": "This control requires physical protection of offices and facilities that process or store information.",
+    "core_points": "Facilities must be designed and maintained to reduce risks such as theft, fire or environmental damage.",
+    "in_practice": "Server rooms are secured and monitored, and environmental protections such as fire suppression and alarms are implemented.",
+    "evidence_examples": [
+      "Facility security procedures",
+      "Fire and alarm system records",
+      "Environmental control documentation"
+    ],
+    "type": "physical",
+    "desc": "Secure offices, rooms, and facilities.",
+    "summary": "Secure offices, rooms, and facilities.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-3-securing-offices-rooms-facilities-2022/",
+    "hightable": "https://hightable.io/iso-27001-7-3-securing-offices-rooms-and-facilities/"
+  },
+  "A.7.4": {
+    "title": "Physical Security Monitoring",
+    "overview": "This control requires monitoring of physical areas to detect unauthorised access or suspicious activity.",
+    "core_points": "Monitoring mechanisms must support investigation and deterrence.",
+    "in_practice": "CCTV systems and security patrols monitor sensitive areas, with recordings retained in accordance with policy.",
+    "evidence_examples": [
+      "CCTV policy",
+      "Monitoring logs",
+      "Surveillance retention records"
+    ],
+    "type": "physical",
+    "desc": "Monitor premises for security incidents.",
+    "summary": "Monitor premises for security incidents.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-4-physical-security-monitoring-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-7-4-physical-security-monitoring/"
+  },
+  "A.7.5": {
+    "title": "Protecting Against Physical and Environmental Threats",
+    "overview": "This control requires protection against natural, accidental or malicious physical threats.",
+    "core_points": "Risks such as fire, flood, power loss or vandalism must be assessed and mitigated.",
+    "in_practice": "Uninterruptible power supplies, surge protection and environmental safeguards are implemented where required.",
+    "evidence_examples": [
+      "Environmental risk assessments",
+      "UPS maintenance records",
+      "Disaster mitigation documentation"
+    ],
+    "type": "physical",
+    "desc": "Protect against physical and environmental damage.",
+    "summary": "Protect against physical and environmental damage.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-5-protecting-against-physical-environmental-threats-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-7-5-protecting-against-physical-and-environmental-threats/"
+  },
+  "A.7.6": {
+    "title": "Working in Secure Areas",
+    "overview": "This control requires rules for personnel working within secure areas.",
+    "core_points": "Activities in secure areas must minimise risks of unauthorised access or exposure.",
+    "in_practice": "Clear desk policies, escort requirements for visitors and restrictions on recording devices are enforced.",
+    "evidence_examples": [
+      "Secure area procedures",
+      "Visitor escort logs",
+      "Clear desk policy documentation"
+    ],
+    "type": "physical",
+    "desc": "Apply controls for work in secure areas.",
+    "summary": "Apply controls for work in secure areas.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-6-working-in-secure-areas-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-7-6-working-in-secure-areas/"
+  },
+  "A.7.7": {
+    "title": "Clear Desk and Clear Screen",
+    "overview": "This control requires sensitive information to be protected when not in use.",
+    "core_points": "Information should not be left exposed on desks or screens when unattended.",
+    "in_practice": "Employees lock screens when away from workstations and store physical documents securely.",
+    "evidence_examples": [
+      "Clear desk policy",
+      "Workstation security guidance",
+      "Security awareness training materials"
+    ],
+    "type": "physical",
+    "desc": "Prevent exposure with clear desk/screen practices.",
+    "summary": "Prevent exposure with clear desk/screen practices.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-7-clear-desk-clear-screen-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-7-7-clear-desk-and-clear-screen/"
+  },
+  "A.7.8": {
+    "title": "Equipment Siting and Protection",
+    "overview": "This control requires equipment to be positioned and protected to reduce risk of damage or unauthorised access.",
+    "core_points": "Equipment must be located in secure environments appropriate to its sensitivity.",
+    "in_practice": "Servers and networking equipment are placed in controlled areas with restricted access.",
+    "evidence_examples": [
+      "Equipment inventory",
+      "Facility layout documentation",
+      "Physical protection controls"
+    ],
+    "type": "physical",
+    "desc": "Place and protect equipment appropriately.",
+    "summary": "Place and protect equipment appropriately.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-8-equipment-siting-protection-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-7-8-equipment-siting-and-protection/"
+  },
+  "A.7.9": {
+    "title": "Security of Assets Off-Premises",
+    "overview": "This control requires protection of assets used outside organisational premises.",
+    "core_points": "Portable devices and off-site equipment must be secured against loss or theft.",
+    "in_practice": "Laptops are encrypted, device tracking is enabled and policies define safe transport and storage requirements.",
+    "evidence_examples": [
+      "Mobile device policy",
+      "Device encryption settings",
+      "Asset assignment records"
+    ],
+    "type": "physical",
+    "desc": "Secure assets used off-site.",
+    "summary": "Secure assets used off-site.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-9-security-of-assets-off-premises-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-7-9-security-of-assets-off-premises/"
+  },
+  "A.7.10": {
+    "title": "Storage Media",
+    "overview": "This control requires storage media to be protected, controlled and managed appropriately.",
+    "core_points": "Media containing sensitive information must be securely stored and handled.",
+    "in_practice": "Removable media use is restricted and encrypted where permitted.",
+    "evidence_examples": [
+      "Removable media policy",
+      "Encryption configuration records",
+      "Media handling procedures"
+    ],
+    "type": "physical",
+    "desc": "Control and protect storage media.",
+    "summary": "Control and protect storage media.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-10-storage-media-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-7-10-storage-media/"
+  },
+  "A.7.11": {
+    "title": "Supporting Utilities",
+    "overview": "This control requires supporting utilities to be protected from failure or disruption.",
+    "core_points": "Power, water and communication services must be safeguarded to maintain availability.",
+    "in_practice": "Critical systems are supported by redundant power supplies and network connectivity where required.",
+    "evidence_examples": [
+      "Infrastructure resilience documentation",
+      "Redundancy architecture diagrams",
+      "Maintenance logs"
+    ],
+    "type": "physical",
+    "desc": "Protect supporting utilities for equipment.",
+    "summary": "Protect supporting utilities for equipment.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-11-supporting-utilities-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-7-11-supporting-utilities/"
+  },
+  "A.7.12": {
+    "title": "Cabling Security",
+    "overview": "This control requires power and telecommunications cabling to be protected from interception or damage.",
+    "core_points": "Cabling should be secured to prevent unauthorised access or disruption.",
+    "in_practice": "Network cables are routed through secure conduits or restricted areas.",
+    "evidence_examples": [
+      "Network layout diagrams",
+      "Cabling protection documentation",
+      "Physical security inspection records"
+    ],
+    "type": "physical",
+    "desc": "Secure power and network cabling.",
+    "summary": "Secure power and network cabling.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-12-cabling-security-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-7-12-cabling-security/"
+  },
+  "A.7.13": {
+    "title": "Equipment Maintenance",
+    "overview": "This control requires equipment to be maintained to ensure its continued availability and integrity.",
+    "core_points": "Maintenance must follow authorised procedures and protect sensitive information.",
+    "in_practice": "Maintenance activities are logged and performed by authorised personnel under supervision where necessary.",
+    "evidence_examples": [
+      "Maintenance schedules",
+      "Service logs",
+      "Vendor maintenance agreements"
+    ],
+    "type": "physical",
+    "desc": "Maintain equipment securely.",
+    "summary": "Maintain equipment securely.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-13-equipment-maintenance-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-7-13-equipment-maintenance/"
+  },
+  "A.7.14": {
+    "title": "Secure Disposal or Re-Use of Equipment",
+    "overview": "This control requires secure disposal or sanitisation of equipment prior to reuse or disposal.",
+    "core_points": "Data must be removed or destroyed to prevent unauthorised recovery.",
+    "in_practice": "Storage devices are wiped, degaussed or physically destroyed in line with approved procedures.",
+    "evidence_examples": [
+      "Data destruction certificates",
+      "Media sanitisation procedure",
+      "Asset disposal records"
+    ],
+    "type": "physical",
+    "desc": "Sanitize and dispose or reuse equipment securely.",
+    "summary": "Sanitize and dispose or reuse equipment securely.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/7-14-secure-disposal-or-re-use-of-equipment-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-7-14-secure-disposal-or-re-use-of-equipment/"
+  },
+  "A.8.1": {
+    "title": "User Endpoint Devices",
+    "overview": "This control requires security measures to protect information on user endpoint devices.",
+    "core_points": "Endpoint devices must be configured, managed and protected in line with organisational security requirements.",
+    "in_practice": "Devices are hardened using secure baselines, protected with anti-malware controls, encrypted where appropriate and managed through centralised configuration tools.",
+    "evidence_examples": [
+      "Endpoint security policy",
+      "Device configuration baselines",
+      "Endpoint monitoring reports"
+    ],
+    "type": "technological",
+    "desc": "Secure user endpoint devices.",
+    "summary": "Secure user endpoint devices.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-1-user-endpoint-devices-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-1-user-endpoint-devices/"
+  },
+  "A.8.2": {
+    "title": "Privileged Access Rights",
+    "overview": "This control requires privileged access rights to be restricted and controlled.",
+    "core_points": "Administrative privileges must be granted based on business need, approved formally and monitored.",
+    "in_practice": "Privileged accounts are limited in number, reviewed regularly and monitored for misuse.",
+    "evidence_examples": [
+      "Privileged access policy",
+      "Admin access review records",
+      "Privileged activity logs"
+    ],
+    "type": "technological",
+    "desc": "Manage and monitor privileged access.",
+    "summary": "Manage and monitor privileged access.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-2-use-of-privileged-access-rights-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-2-privileged-access-rights/"
+  },
+  "A.8.3": {
+    "title": "Information Access Restriction",
+    "overview": "This control requires access to information and systems to be restricted in accordance with defined policies.",
+    "core_points": "Access controls must enforce segregation and least privilege principles.",
+    "in_practice": "Role-based access controls are implemented and aligned with defined job functions.",
+    "evidence_examples": [
+      "Access control configuration",
+      "Role mapping documentation",
+      "Access review reports"
+    ],
+    "type": "technological",
+    "desc": "Restrict information access by need.",
+    "summary": "Restrict information access by need.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-3-information-access-restriction-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-3-information-access-restriction/"
+  },
+  "A.8.4": {
+    "title": "Access to Source Code",
+    "overview": "This control requires source code to be protected from unauthorised access.",
+    "core_points": "Access to source repositories must be restricted and monitored.",
+    "in_practice": "Source code repositories require authentication, use role-based permissions and log changes.",
+    "evidence_examples": [
+      "Repository access controls",
+      "Commit history logs",
+      "Access review documentation"
+    ],
+    "type": "technological",
+    "desc": "Control access to source code.",
+    "summary": "Control access to source code.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-4-access-to-source-code-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-4-access-to-source-code/"
+  },
+  "A.8.5": {
+    "title": "Secure Authentication",
+    "overview": "This control requires secure authentication mechanisms to verify user identities.",
+    "core_points": "Authentication processes must be robust and protect against unauthorised access.",
+    "in_practice": "Multi-factor authentication is enforced for sensitive systems and remote access.",
+    "evidence_examples": [
+      "MFA configuration records",
+      "Authentication policy",
+      "System access settings"
+    ],
+    "type": "technological",
+    "desc": "Implement secure authentication mechanisms.",
+    "summary": "Implement secure authentication mechanisms.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-5-secure-authentication-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-5-secure-authentication/"
+  },
+  "A.8.6": {
+    "title": "Capacity Management",
+    "overview": "This control requires capacity demands to be monitored and managed to ensure system availability.",
+    "core_points": "Resource usage must be assessed to prevent performance degradation or outages.",
+    "in_practice": "Infrastructure monitoring tools track performance and capacity thresholds trigger alerts.",
+    "evidence_examples": [
+      "Monitoring dashboards",
+      "Capacity planning documentation",
+      "Alert configuration records"
+    ],
+    "type": "technological",
+    "desc": "Monitor and plan system capacity.",
+    "summary": "Monitor and plan system capacity.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-6-capacity-management-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-6-capacity-management/"
+  },
+  "A.8.7": {
+    "title": "Protection Against Malware",
+    "overview": "This control requires detection, prevention and recovery measures against malware.",
+    "core_points": "Systems must be protected through preventive and detective mechanisms.",
+    "in_practice": "Anti-malware software, email filtering and secure configuration standards are implemented.",
+    "evidence_examples": [
+      "Anti-malware policy",
+      "Endpoint protection logs",
+      "Malware detection reports"
+    ],
+    "type": "technological",
+    "desc": "Detect and prevent malware.",
+    "summary": "Detect and prevent malware.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-7-protection-against-malware-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-7-protection-against-malware/"
+  },
+  "A.8.8": {
+    "title": "Management of Technical Vulnerabilities",
+    "overview": "This control requires timely identification and remediation of technical vulnerabilities.",
+    "core_points": "Vulnerabilities must be assessed and addressed based on risk.",
+    "in_practice": "Regular patching cycles and vulnerability scans are conducted, with remediation tracked.",
+    "evidence_examples": [
+      "Patch management policy",
+      "Vulnerability scan reports",
+      "Remediation tracking logs"
+    ],
+    "type": "technological",
+    "desc": "Identify and remediate vulnerabilities.",
+    "summary": "Identify and remediate vulnerabilities.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-8-management-of-technical-vulnerabilities-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-8-management-of-technical-vulnerabilities/"
+  },
+  "A.8.9": {
+    "title": "Configuration Management",
+    "overview": "This control requires secure configuration of systems and services.",
+    "core_points": "Configuration standards must be defined, implemented and maintained.",
+    "in_practice": "Baseline configurations are documented and changes are controlled through change management.",
+    "evidence_examples": [
+      "Configuration baseline documents",
+      "Change management records",
+      "System hardening standards"
+    ],
+    "type": "technological",
+    "desc": "Control and document system configurations.",
+    "summary": "Control and document system configurations.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-9-configuration-management-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-9-configuration-management/"
+  },
+  "A.8.10": {
+    "title": "Information Deletion",
+    "overview": "This control requires secure deletion of information when no longer required.",
+    "core_points": "Deletion processes must prevent unauthorised recovery of data.",
+    "in_practice": "Data deletion procedures are applied to storage systems and verified where appropriate.",
+    "evidence_examples": [
+      "Data deletion policy",
+      "Deletion verification records",
+      "Retention schedule documentation"
+    ],
+    "type": "technological",
+    "desc": "Delete information securely when no longer needed.",
+    "summary": "Delete information securely when no longer needed.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-10-information-deletion-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-10-information-deletion/"
+  },
+  "A.8.11": {
+    "title": "Data Masking",
+    "overview": "This control requires techniques to protect sensitive information through masking or anonymisation.",
+    "core_points": "Masking must reduce exposure of sensitive data in non-production or reporting contexts.",
+    "in_practice": "Sensitive fields are masked in logs, testing environments or analytics outputs.",
+    "evidence_examples": [
+      "Data masking procedures",
+      "Test environment configuration",
+      "Application security controls"
+    ],
+    "type": "technological",
+    "desc": "Mask sensitive data where appropriate.",
+    "summary": "Mask sensitive data where appropriate.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-11-data-masking-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-11-data-masking/"
+  },
+  "A.8.12": {
+    "title": "Data Leakage Prevention",
+    "overview": "This control requires measures to prevent unauthorised data exfiltration.",
+    "core_points": "Controls must detect and prevent transfer of sensitive data outside authorised channels.",
+    "in_practice": "DLP tools or monitoring rules identify suspicious outbound data activity.",
+    "evidence_examples": [
+      "DLP policy",
+      "Monitoring configuration records",
+      "Alert and incident logs"
+    ],
+    "type": "technological",
+    "desc": "Prevent unauthorized data exfiltration.",
+    "summary": "Prevent unauthorized data exfiltration.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-12-data-leakage-prevention-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-12-data-leakage-prevention/"
+  },
+  "A.8.13": {
+    "title": "Information Backup",
+    "overview": "This control requires backup of information and systems to protect against data loss.",
+    "core_points": "Backups must be performed regularly, protected and tested.",
+    "in_practice": "Automated backups are scheduled and restoration tests are conducted periodically.",
+    "evidence_examples": [
+      "Backup policy",
+      "Backup logs",
+      "Restore test results"
+    ],
+    "type": "technological",
+    "desc": "Back up information securely and regularly.",
+    "summary": "Back up information securely and regularly.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-13-information-backup-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-13-information-backup/"
+  },
+  "A.8.14": {
+    "title": "Redundancy of Information Processing Facilities",
+    "overview": "This control requires redundancy to ensure availability of information processing facilities.",
+    "core_points": "Critical systems must have failover or redundancy mechanisms.",
+    "in_practice": "High-availability configurations or replicated infrastructure support resilience.",
+    "evidence_examples": [
+      "High availability architecture diagrams",
+      "Failover test documentation",
+      "Infrastructure resilience plans"
+    ],
+    "type": "technological",
+    "desc": "Provide redundancy for processing facilities.",
+    "summary": "Provide redundancy for processing facilities.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-14-redundancy-of-information-processing-facilities-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-14-redundancy-of-information-processing-facilities/"
+  },
+  "A.8.15": {
+    "title": "Logging",
+    "overview": "This control requires logging of events to support monitoring and investigation.",
+    "core_points": "Logs must record relevant security events and be protected against tampering.",
+    "in_practice": "Centralised logging systems collect and retain audit trails for review.",
+    "evidence_examples": [
+      "Logging policy",
+      "Audit log samples",
+      "Log retention configuration"
+    ],
+    "type": "technological",
+    "desc": "Generate and protect security logs.",
+    "summary": "Generate and protect security logs.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-15-logging-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-15-logging/"
+  },
+  "A.8.16": {
+    "title": "Monitoring Activities",
+    "overview": "This control requires monitoring of systems to detect security events.",
+    "core_points": "Monitoring must identify anomalies and trigger response actions.",
+    "in_practice": "Security monitoring tools generate alerts for suspicious behaviour.",
+    "evidence_examples": [
+      "Monitoring dashboards",
+      "Alert configuration records",
+      "Security incident tickets"
+    ],
+    "type": "technological",
+    "desc": "Monitor systems for security events.",
+    "summary": "Monitor systems for security events.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-16-monitoring-activities-2022/",
+    "hightable": "https://hightable.io/iso-27001-annex-a-8-16-monitoring-activities/"
+  },
+  "A.8.17": {
+    "title": "Clock Synchronisation",
+    "overview": "This control requires system clocks to be synchronised to ensure accurate logging and event correlation.",
+    "core_points": "Time sources must be consistent and reliable across systems.",
+    "in_practice": "Systems use trusted NTP servers and configurations are standardised.",
+    "evidence_examples": [
+      "NTP configuration records",
+      "System time settings",
+      "Infrastructure configuration standards"
+    ],
+    "type": "technological",
+    "desc": "Synchronize system clocks.",
+    "summary": "Synchronize system clocks.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-17-clock-synchronisation-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-17-clock-synchronisation/"
+  },
+  "A.8.18": {
+    "title": "Use of Privileged Utility Programs",
+    "overview": "This control requires control over utility programs that could override system or application controls.",
+    "core_points": "Powerful tools must be restricted to authorised users and monitored.",
+    "in_practice": "Administrative utilities are access-controlled and usage is logged.",
+    "evidence_examples": [
+      "Utility access control records",
+      "Administrative usage logs",
+      "System configuration policies"
+    ],
+    "type": "technological",
+    "desc": "Control use of privileged utilities.",
+    "summary": "Control use of privileged utilities.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-18-use-of-privileged-utility-programs-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-18-use-of-privileged-utility-programs/"
+  },
+  "A.8.19": {
+    "title": "Installation of Software on Operational Systems",
+    "overview": "This control requires controls over software installation on production systems.",
+    "core_points": "Software must be authorised and tested before deployment.",
+    "in_practice": "Changes to production systems follow change management approval processes.",
+    "evidence_examples": [
+      "Change management records",
+      "Deployment approval documentation",
+      "Software inventory records"
+    ],
+    "type": "technological",
+    "desc": "Control software installation in production.",
+    "summary": "Control software installation in production.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-19-installation-software-on-operational-systems-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-19-installation-of-software-on-operational-systems/"
+  },
+  "A.8.20": {
+    "title": "Networks Security",
+    "overview": "This control requires networks to be managed and protected to safeguard information.",
+    "core_points": "Network controls must prevent unauthorised access and protect data in transit.",
+    "in_practice": "Firewalls, segmentation and encrypted communication protocols are implemented.",
+    "evidence_examples": [
+      "Network architecture diagrams",
+      "Firewall configuration records",
+      "Encryption settings documentation"
+    ],
+    "type": "technological",
+    "desc": "Implement network security controls.",
+    "summary": "Implement network security controls.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-20-network-security-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-20-network-security/"
+  },
+  "A.8.21": {
+    "title": "Security of Network Services",
+    "overview": "This control requires security mechanisms for network services.",
+    "core_points": "Service-level security requirements must be defined and enforced.",
+    "in_practice": "Network service configurations align with secure baseline standards.",
+    "evidence_examples": [
+      "Service configuration standards",
+      "Security baseline documentation",
+      "Network service agreements"
+    ],
+    "type": "technological",
+    "desc": "Protect network services.",
+    "summary": "Protect network services.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-21-security-of-network-services-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-21-security-of-network-services/"
+  },
+  "A.8.22": {
+    "title": "Segregation of Networks",
+    "overview": "This control requires network segregation to reduce risk exposure.",
+    "core_points": "Networks should be segmented based on risk and sensitivity.",
+    "in_practice": "Production, development and guest networks are logically separated.",
+    "evidence_examples": [
+      "Network segmentation diagrams",
+      "Firewall rulesets",
+      "Infrastructure configuration records"
+    ],
+    "type": "technological",
+    "desc": "Segment networks to reduce risk.",
+    "summary": "Segment networks to reduce risk.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-22-segregation-of-networks-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-22-segregation-of-networks/"
+  },
+  "A.8.23": {
+    "title": "Web Filtering",
+    "overview": "This control requires controls to restrict access to harmful or inappropriate web resources.",
+    "core_points": "Web access should be monitored and restricted according to policy.",
+    "in_practice": "Web filtering tools block malicious or high-risk domains.",
+    "evidence_examples": [
+      "Web filtering policy",
+      "Blocked domain logs",
+      "Secure browsing configuration"
+    ],
+    "type": "technological",
+    "desc": "Filter web access to reduce threats.",
+    "summary": "Filter web access to reduce threats.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-23-web-filtering-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-23-web-filtering/"
+  },
+  "A.8.24": {
+    "title": "Use of Cryptography",
+    "overview": "This control requires appropriate use of cryptography to protect information.",
+    "core_points": "Cryptographic controls must be defined and aligned with risk and legal requirements.",
+    "in_practice": "Data at rest and in transit is encrypted using approved standards.",
+    "evidence_examples": [
+      "Cryptography policy",
+      "Encryption configuration records",
+      "Key management documentation"
+    ],
+    "type": "technological",
+    "desc": "Use cryptography to protect information.",
+    "summary": "Use cryptography to protect information.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-24-use-of-cryptography-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-24-use-of-cryptography/"
+  },
+  "A.8.25": {
+    "title": "Secure Development Life Cycle",
+    "overview": "This control requires security to be integrated into the software development lifecycle.",
+    "core_points": "Security requirements must be defined, implemented and verified during development.",
+    "in_practice": "Code reviews, security testing and defined SDLC stages incorporate security controls.",
+    "evidence_examples": [
+      "Secure SDLC policy",
+      "Code review records",
+      "Security testing reports"
+    ],
+    "type": "technological",
+    "desc": "Embed security in the development lifecycle.",
+    "summary": "Embed security in the development lifecycle.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-25-secure-development-life-cycle-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-25-secure-development-life-cycle/"
+  },
+  "A.8.26": {
+    "title": "Application Security Requirements",
+    "overview": "This control requires security requirements to be identified and specified for applications.",
+    "core_points": "Applications must meet defined security and compliance requirements.",
+    "in_practice": "Security requirements are documented in specifications before development begins.",
+    "evidence_examples": [
+      "Application requirement documents",
+      "Security acceptance criteria",
+      "Project documentation"
+    ],
+    "type": "technological",
+    "desc": "Define and enforce application security requirements.",
+    "summary": "Define and enforce application security requirements.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-26-application-security-requirements-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-26-application-security-requirements/"
+  },
+  "A.8.27": {
+    "title": "Secure System Architecture and Engineering Principles",
+    "overview": "This control requires secure design principles to be applied to systems.",
+    "core_points": "Architectural decisions must incorporate security by design.",
+    "in_practice": "System designs undergo security review before implementation.",
+    "evidence_examples": [
+      "Architecture review records",
+      "Security design standards",
+      "System design documentation"
+    ],
+    "type": "technological",
+    "desc": "Apply secure architecture and engineering principles.",
+    "summary": "Apply secure architecture and engineering principles.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-27-secure-system-architecture-engineering-principles-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-27-secure-systems-architecture-and-engineering-principles/"
+  },
+  "A.8.28": {
+    "title": "Secure Coding",
+    "overview": "This control requires secure coding practices to reduce vulnerabilities.",
+    "core_points": "Developers must follow secure coding standards and review processes.",
+    "in_practice": "Coding standards incorporate OWASP guidance and automated code scanning tools are used.",
+    "evidence_examples": [
+      "Secure coding standards",
+      "Static analysis reports",
+      "Developer training records"
+    ],
+    "type": "technological",
+    "desc": "Apply secure coding practices.",
+    "summary": "Apply secure coding practices.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-28-secure-coding-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-28-secure-coding/"
+  },
+  "A.8.29": {
+    "title": "Security Testing in Development and Acceptance",
+    "overview": "This control requires security testing before system deployment.",
+    "core_points": "Testing must validate security controls and identify vulnerabilities.",
+    "in_practice": "Penetration testing, vulnerability scanning and acceptance testing are conducted before release.",
+    "evidence_examples": [
+      "Penetration test reports",
+      "Test case documentation",
+      "Release approval records"
+    ],
+    "type": "technological",
+    "desc": "Test security during development and acceptance.",
+    "summary": "Test security during development and acceptance.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-29-security-testing-in-development-acceptance-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-29-security-testing-in-development-and-acceptance/"
+  },
+  "A.8.30": {
+    "title": "Outsourced Development",
+    "overview": "This control requires security requirements to be applied to outsourced development.",
+    "core_points": "Third-party developers must adhere to organisational security standards.",
+    "in_practice": "Contracts with external developers include security obligations and review requirements.",
+    "evidence_examples": [
+      "Outsourced development agreements",
+      "Security clauses in contracts",
+      "Code review records"
+    ],
+    "type": "technological",
+    "desc": "Manage security for outsourced development.",
+    "summary": "Manage security for outsourced development.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-30-outsourced-development-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-30-outsourced-development/"
+  },
+  "A.8.31": {
+    "title": "Separation of Development, Test and Production Environments",
+    "overview": "This control requires segregation between development, testing and production environments.",
+    "core_points": "Environments must be isolated to prevent unauthorised changes or data exposure.",
+    "in_practice": "Production data is not used in development without masking, and access is environment-specific.",
+    "evidence_examples": [
+      "Environment segregation policy",
+      "Access control configurations",
+      "Infrastructure diagrams"
+    ],
+    "type": "technological",
+    "desc": "Separate dev, test, and production environments.",
+    "summary": "Separate dev, test, and production environments.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-31-separation-of-development-test-production-environments-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-31-separation-of-development-test-and-production-environments/"
+  },
+  "A.8.32": {
+    "title": "Change Management",
+    "overview": "This control requires changes to information processing facilities to be controlled.",
+    "core_points": "Changes must be assessed, approved and documented before implementation.",
+    "in_practice": "Formal change requests are reviewed and approved prior to deployment.",
+    "evidence_examples": [
+      "Change request records",
+      "Approval logs",
+      "Change management procedure"
+    ],
+    "type": "technological",
+    "desc": "Control and document changes.",
+    "summary": "Control and document changes.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-32-change-management-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-32-change-management/"
+  },
+  "A.8.33": {
+    "title": "Test Information",
+    "overview": "This control requires test data to be appropriately protected.",
+    "core_points": "Sensitive information must not be exposed in test environments without protection.",
+    "in_practice": "Test data is anonymised or masked before being used in non-production systems.",
+    "evidence_examples": [
+      "Data masking documentation",
+      "Test environment policies",
+      "Anonymisation procedures"
+    ],
+    "type": "technological",
+    "desc": "Protect test data and information.",
+    "summary": "Protect test data and information.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-33-test-information-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-33-test-information/"
+  },
+  "A.8.34": {
+    "title": "Protection of Information Systems During Audit Testing",
+    "overview": "This control requires safeguards to protect operational systems during audit activities.",
+    "core_points": "Audit activities must not compromise system integrity or availability.",
+    "in_practice": "Audit testing is planned and authorised to minimise operational risk.",
+    "evidence_examples": [
+      "Audit testing procedures",
+      "Audit approval records",
+      "System integrity monitoring logs"
+    ],
+    "type": "technological",
+    "desc": "Protect systems during audit and testing.",
+    "summary": "Protect systems during audit and testing.",
+    "isms": "https://www.isms.online/iso-27001/annex-a-2022/8-34-protection-information-systems-during-audit-testing-2022/",
+    "hightable": "https://hightable.io/iso27001-annex-a-8-34-protection-of-information-systems-during-audit-testing/"
+  }
+}
