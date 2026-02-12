@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+    <rect width="256" height="256" fill="none"/>
+    <polygon points="152 32 152 88 208 88 152 32" opacity="0.2"/>
+    <path d="M208,224V88L152,32H56a8,8,0,0,0-8,8v72" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+    <polyline points="152 32 152 88 208 88" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+
+    <!-- I - aligned with left edge (x=56) and extending down near bottom -->
+    <line x1="48" y1="168" x2="48" y2="224" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+
+    <!-- S -->
+    <path d="M120,167.9H88a14,14,0,0,0,0,28h16a14,14,0,0,1,0,28H75" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+
+    <!-- O -->
+    <ellipse cx="160" cy="195" rx="25" ry="30" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"/>
+</svg>
