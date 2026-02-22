@@ -32,6 +32,7 @@
             href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap"
             rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/duotone/style.css"/>
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -267,14 +268,23 @@
             </div>
         </article>
     </section>
-    <button class="back-to-top" type="button" id="backToTop" aria-label="Back to top">
-        Back to top
-    </button>
-    <a class="pizza-fab" href="https://buymeacoffee.com/marcus.nightingale" target="_blank" aria-label="Buy me a pizza">
-        <img class="pizza-icon" alt="" aria-hidden="true" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0iIzAwMDAwMCIgdmlld0JveD0iMCAwIDI1NiAyNTYiPjxwYXRoIGQ9Ik0yMTgsOTEuNzYsMTg3LjEzLDE0Mi40QTMyLDMyLDAsMSwwLDE1NCwxOTYuNzhsLTE5LjEzLDMxLjM4YTgsOCwwLDAsMS0xMy43LDBMODQuMywxNjcuNzFhMzIsMzIsMCwxLDAtMzAuNDgtNTBMMzgsOTEuNzZhMTU5Ljc3LDE1OS43NywwLDAsMSwxODAsMFoiIG9wYWNpdHk9IjAuMiI+PC9wYXRoPjxwYXRoIGQ9Ik0yMzkuNTQsNjNhMTUuOTEsMTUuOTEsMCwwLDAtNy4yNS05LjksMjAxLjQ5LDIwMS40OSwwLDAsMC0yMDguNTgsMCwxNiwxNiwwLDAsMC01LjM3LDIybDk2LDE1Ny4yN2ExNiwxNiwwLDAsMCwyNy4zNiwwTDE5NCwxNDYuNTN2MGw0My42MS03MS40NUExNS44MiwxNS44MiwwLDAsMCwyMzkuNTQsNjNaTTYzLjU5LDExOC41YTI0LDI0LDAsMSwxLDI0LjQ3LDQwLjA5Wm04Ny45Miw2Ni45NUEyNCwyNCwwLDAsMSwxNzYsMTQ1LjM3Wm0zMi45My01My45M2E0MCw0MCwwLDAsMC00MS4zOCw2Ny43N0wxMjgsMjI0LDk2LjUsMTcyLjQzYTQwLDQwLDAsMSwwLTQxLjM1LTY3Ljc2TDQ4LjgsOTQuMjZhMTUyLDE1MiwwLDAsMSwxNTguMzksMFptMzEuMS01MC45M2ExNjguMTIsMTY4LjEyLDAsMCwwLTE3NS4wOCwwTDMyLDY2Ljc3YTE4NS42LDE4NS42LDAsMCwxLDE5MiwwWiI+PC9wYXRoPjwvc3ZnPg=="/>
-        <span class="pizza-text">Buy me a pizza</span>
-    </a>
 </main>
+
+<button class="theme-fab" id="btnTheme" type="button" aria-pressed="false" aria-label="Switch to dark theme"
+        title="Switch to dark theme">
+    <i class="ph-duotone ph-sun-horizon" aria-hidden="true"></i>
+    <i class="ph-duotone ph-cloud-moon" aria-hidden="true"></i>
+    <span class="sr-only">Toggle theme</span>
+</button>
+
+<a class="coffee-fab" href="https://buymeacoffee.com/marcus.nightingale" target="_blank"
+   rel="noopener noreferrer" aria-label="Buy me a pizza" title="Buy me a pizza">
+    <i class="ph-duotone ph-pizza" aria-hidden="true"></i>
+</a>
+
+<button class="back-to-top" id="btnTop" type="button" aria-label="Scroll to top" title="Scroll to top">
+    <i class="ph-duotone ph-arrow-up" aria-hidden="true"></i>
+</button>
 
 <div class="modal-backdrop" id="control-modal" hidden aria-hidden="true">
     <div class="modal-panel" id="control-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title"
