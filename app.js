@@ -56,3 +56,53 @@ let controls=[];const typeLabels={organizational:"Organizational",people:"People
     });
   }
 })();
+
+;(() => {
+  const cornerLogo = document.querySelector(".corner-logo");
+  const mobileLogoQuery = window.matchMedia("(max-width: 720px)");
+  let lastLogoScroll = window.scrollY;
+  let logoRaf = null;
+
+  function setLogoState(state) {
+    if (!cornerLogo) return;
+    cornerLogo.classList.remove("is-hiding", "is-showing");
+    if (state === "hidden") {
+      cornerLogo.classList.add("is-hiding");
+      cornerLogo.classList.add("is-hidden");
+    } else {
+      cornerLogo.classList.add("is-showing");
+      cornerLogo.classList.remove("is-hidden");
+    }
+  }
+
+  function updateLogoVisibility() {
+    if (!cornerLogo) return;
+    if (!mobileLogoQuery.matches) {
+      cornerLogo.classList.remove("is-hiding", "is-showing", "is-hidden");
+      lastLogoScroll = window.scrollY;
+      return;
+    }
+    const current = window.scrollY;
+    const delta = current - lastLogoScroll;
+    if (current <= 8) {
+      setLogoState("shown");
+    } else if (delta > 4) {
+      setLogoState("hidden");
+    } else if (delta < -4) {
+      setLogoState("shown");
+    }
+    lastLogoScroll = current;
+  }
+
+  function onLogoScroll() {
+    if (logoRaf) return;
+    logoRaf = window.requestAnimationFrame(() => {
+      logoRaf = null;
+      updateLogoVisibility();
+    });
+  }
+
+  window.addEventListener("scroll", onLogoScroll, { passive: true });
+  window.addEventListener("resize", updateLogoVisibility);
+  updateLogoVisibility();
+})();
