@@ -1,0 +1,23 @@
+# Control Bento
+
+> Interactive reference for the 93 Annex A controls of ISO/IEC 27001:2022.
+> Search by control ID, title or description; filter by control type
+> (Organizational A.5, People A.6, Physical A.7, Technological A.8).
+> Each control opens implementation guidance: overview, core points,
+> in-practice notes, evidence examples, plus ISMS.online and Hightable links.
+
+## Scope
+
+Covers Annex A controls only (A.5–A.8). Clauses 4–10 of ISO/IEC 27001:2022
+are out of scope for this reference.
+
+## Dataset
+
+Machine-readable source: [controls.json](./controls.json) — all 93 controls
+with title, type, overview, core points, in-practice guidance, evidence
+examples, description, summary, and reference links.
+
+## Author
+
+Built by [Marcus Nightingale](https://mnightingale.dev) — senior PHP
+developer (UK) and ISO/IEC 27001 Lead Implementor.

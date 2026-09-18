@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://marcus-nightingale.github.io/ISO27001-2022-Control-Bento/sitemap.xml

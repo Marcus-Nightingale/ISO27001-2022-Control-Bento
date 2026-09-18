@@ -1,40 +1,21 @@
 # ISO27001:2022 - Control Bento
 
-A bento-style, practitioner-focused reference for ISO/IEC 27001:2022 Annex A controls. The UI groups all 93 controls by control type, supports fast search and filtering, and provides a modal detail view sourced from `controls.json`.
-
-## What The Page Includes
-
-- Bento layout with hero, search, summary, grouped controls, and footer cards.
-- All 93 Annex A controls, grouped by control type: Organizational, People, Physical, Technological.
-- Search that filters by control ID, title, summary, and all detailed fields.
-- Section headers that toggle (show/hide) the controls within each group.
-- Card-based control list (4 per row on desktop, responsive on smaller screens).
-- Control modal with:
-  - Overview
-  - Core points
-  - In practice
-  - Evidence examples
-- Keyboard and accessibility support:
-  - Skip link to controls
-  - Focus-visible styles
-  - Modal focus trapping and Escape-to-close
-  - `aria-hidden` / `inert` for background when modal is open
+Practitioner-focused reference for ISO/IEC 27001:2022 Annex A controls.
+Currently being rebuilt from scratch — page coming soon.
 
 ## Data Source
 
-All control content is loaded from `controls.json`.
+All 93 Annex A control entries live in `controls.json` (canonical) with a
+generated `window.CONTROL_DATA` snapshot in `controls-data.js` for `file://`
+use (fetch is blocked on local files; over HTTP `controls.json` is the live
+source).
 
-Each control entry includes:
+After editing `controls.json`, regenerate the snapshot:
 
-- `title`
-- `type` (organizational, people, physical, technological)
-- `overview`
-- `core_points`
-- `in_practice`
-- `evidence_examples`
-- `desc`
-- `summary`
-- `isms` (link)
-- `hightable` (link)
+```bash
+python3 -c "import json; open('controls-data.js','w').write('window.CONTROL_DATA = ' + json.dumps(json.load(open('controls.json')), ensure_ascii=False) + ';')"
+```
 
-The page fetches `controls.json` at runtime, renders the control grid, and uses the same data for the modal details.
+Each control entry includes `title`, `type` (organizational, people, physical,
+technological), `overview`, `core_points`, `in_practice`, `evidence_examples`,
+`desc`, `summary`, `isms` and `hightable` links.

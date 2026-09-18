@@ -1,325 +1,224 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description"
-          content="ISO/IEC 27001:2022 Annex A controls presented in a bento-style reference with search, grouped control types, and detailed implementation guidance."/>
-    <meta name="keywords"
-          content="ISO 27001, ISO/IEC 27001:2022, Annex A controls, ISMS, information security, compliance, risk management"/>
-    <meta name="robots" content="index, follow"/>
-    <meta name="theme-color" content="#d86b4b"/>
-    <link rel="canonical" href="https://mnightingale.dev/ISO27001-2022-Control-Bento/"/>
-    <link rel="alternate" type="application/json" href="controls.json"
-          title="ISO/IEC 27001:2022 Annex A controls dataset"/>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
-    
-    <!-- GEO Tags -->
-    <meta name="geo.region" content="GB"/>
-    <meta name="geo.placename" content="United Kingdom"/>
-    <meta property="og:title" content="ISO/IEC 27001:2022 Control Bento"/>
-    <meta property="og:url" content="https://mnightingale.dev/ISO27001-2022-Control-Bento/"/>
-    <meta name="google-site-verification" content="bWrAWeuXSlFFqnsq1620OPLK4I1tQO-dv8HTmtQMG2M" />
-    <meta property="og:description"
-          content="All 93 Annex A controls grouped by type with fast search and practical implementation detail."/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:locale" content="en_US"/>
-    <meta property="og:site_name" content="Control Bento"/>
-    <meta name="twitter:card" content="summary"/>
-    <meta name="twitter:title" content="ISO/IEC 27001:2022 Control Bento"/>
-    <meta name="twitter:description"
-          content="Bento-style ISO/IEC 27001:2022 Annex A controls with search, grouping, and modal guidance."/>
-    <title>ISO/IEC 27001:2022 Controls Bento</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link
-            href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600&display=swap"
-            rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/duotone/style.css"/>
-    <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@graph": [
-                {
-                    "@type": "WebPage",
-                    "@id": "#webpage",
-                    "name": "ISO/IEC 27001:2022 Control Bento",
-                    "description": "ISO/IEC 27001:2022 Annex A controls grouped by type with search, filtering, and modal guidance.",
-                    "inLanguage": "en",
-                    "url": "https://mnightingale.dev/ISO27001-2022-Control-Bento/",
-                    "keywords": [
-                        "ISO 27001",
-                        "ISO/IEC 27001:2022",
-                        "Annex A controls",
-                        "ISMS",
-                        "information security"
-                    ],
-                    "about": {
-                        "@type": "Thing",
-                        "name": "ISO/IEC 27001:2022 Annex A controls"
-                    },
-                    "mainEntity": {
-                        "@id": "#dataset"
-                    }
-                },
-                {
-                    "@type": "Dataset",
-                    "@id": "#dataset",
-                    "name": "ISO/IEC 27001:2022 Annex A Controls Dataset",
-                    "description": "Machine-readable dataset of all 93 Annex A controls with overview, core points, implementation guidance, and evidence examples.",
-                    "inLanguage": "en",
-                    "dateModified": "2026-02-12",
-                    "keywords": [
-                        "ISO 27001",
-                        "Annex A controls",
-                        "ISMS",
-                        "information security"
-                    ],
-                    "distribution": [
-                        {
-                            "@type": "DataDownload",
-                            "contentUrl": "https://mnightingale.dev/ISO27001-2022-Control-Bento/controls.json",
-                            "encodingFormat": "application/json"
-                        }
-                    ]
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Control Bento — ISO/IEC 27001:2022 Annex A Controls</title>
+        <meta name="description" content="All 93 ISO/IEC 27001:2022 Annex A controls as an interactive bento grid. Search by ID, title or description, filter by control type, and open practical implementation guidance." />
+        <link rel="canonical" href="https://mnightingale.dev/ISO27001-2022-Control-Bento/" />
+        <meta name="theme-color" content="#eef0f2" id="theme-color" />
+        <script>
+            try {
+                var savedTheme = localStorage.getItem("mnightingale:theme");
+                if (!savedTheme) {
+                    savedTheme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
                 }
-            ]
-        }
-    </script>
-    <link rel="stylesheet" href="styles.css"/>
-</head>
-<body>
-<a class="corner-logo" href="https://mnightingale.dev" aria-label="Marcus Nightingale home">
-    <svg viewBox="0 0 64 64" role="presentation" focusable="false">
-        <rect x="10" y="10" width="44" height="44" rx="10" fill="none" stroke="currentColor" stroke-width="3"/>
-        <rect x="18" y="18" width="14" height="14" rx="4" fill="currentColor"/>
-        <rect x="34" y="18" width="12" height="14" rx="4" fill="currentColor" opacity="0.85"/>
-        <rect x="18" y="34" width="28" height="12" rx="4" fill="currentColor" opacity="0.7"/>
-    </svg>
-</a>
-<a class="skip-link" href="#controls">Skip to controls</a>
-<main class="page">
-    <section class="bento-grid" id="controls" data-bento-grid>
-        <article class="card card-hero">
-            <div class="eyebrow">ISO/IEC 27001:2022 Annex A</div>
-            <h1>Control Bento</h1>
-            <p class="lead">
-                All 93 controls grouped by control type. Search filters by control ID,
-                title, or description.
-            </p>
-            <div class="hero-stats">
-                <div class="stat">
-                    <strong>93</strong>
-                    <span>Total controls</span>
-                </div>
-                <div class="stat">
-                    <strong>4</strong>
-                    <span>Control types</span>
-                </div>
-                <div class="stat">
-                    <strong>ISO/IEC 27001:2022</strong>
-                    <span>Annex A</span>
-                </div>
+                document.documentElement.dataset.theme = savedTheme;
+            } catch (e) {
+                document.documentElement.dataset.theme = "light";
+            }
+        </script>
+        <meta name="author" content="Marcus Nightingale" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="mnightingale.dev" />
+        <meta property="og:title" content="Control Bento — ISO/IEC 27001:2022 Annex A Controls" />
+        <meta property="og:description" content="All 93 Annex A controls grouped by type with fast search and practical implementation detail." />
+        <meta property="og:url" content="https://mnightingale.dev/ISO27001-2022-Control-Bento/" />
+        <meta property="og:image" content="https://mnightingale.dev/ISO27001-2022-Control-Bento/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Control Bento — ISO/IEC 27001:2022, 93 Annex A controls" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Control Bento — ISO/IEC 27001:2022 Annex A Controls" />
+        <meta name="twitter:description" content="All 93 Annex A controls grouped by type with fast search and practical implementation detail." />
+        <meta name="twitter:image" content="https://mnightingale.dev/ISO27001-2022-Control-Bento/og-image.png" />
+        <link rel="icon" type="image/png" href="./favicon.png" />
+        <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@graph": [
+                    {
+                        "@type": "WebPage",
+                        "@id": "#webpage",
+                        "name": "ISO/IEC 27001:2022 Control Bento",
+                        "description": "ISO/IEC 27001:2022 Annex A controls grouped by type with search, filtering, and detail guidance.",
+                        "inLanguage": "en",
+                        "url": "https://mnightingale.dev/ISO27001-2022-Control-Bento/",
+                        "mainEntity": { "@id": "#dataset" }
+                    },
+                    {
+                        "@type": "Dataset",
+                        "@id": "#dataset",
+                        "name": "ISO/IEC 27001:2022 Annex A Controls Dataset",
+                        "description": "Machine-readable dataset of all 93 Annex A controls with overview, core points, implementation guidance, and evidence examples.",
+                        "inLanguage": "en",
+                        "dateModified": "2026-02-12",
+                        "distribution": [
+                            {
+                                "@type": "DataDownload",
+                                "contentUrl": "https://mnightingale.dev/ISO27001-2022-Control-Bento/controls.json",
+                                "encodingFormat": "application/json"
+                            }
+                        ]
+                    }
+                ]
+            }
+        </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Titan+One&family=Nunito:wght@400;500;600;700&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <header class="nav">
+            <a class="nav-mascot" href="https://mnightingale.dev" aria-label="Marcus Nightingale home">
+                <span class="mascot-frame" id="mascot-frame" aria-hidden="true"></span>
+            </a>
+            <div class="nav-actions">
+                <nav class="nav-links" aria-label="Control types">
+                    <a href="#section-organizational">A.5</a>
+                    <a href="#section-people">A.6</a>
+                    <a href="#section-physical">A.7</a>
+                    <a href="#section-technological">A.8</a>
+                </nav>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle dark mode" aria-pressed="false">
+                    <svg class="theme-icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9z"></path>
+                    </svg>
+                    <svg class="theme-icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path>
+                    </svg>
+                </button>
+                <button class="sound-toggle" id="sound-toggle" type="button" aria-label="Toggle interface sounds" aria-pressed="true">
+                    <svg class="sound-icon-on" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M11 5 6 9H2v6h4l5 4V5z"></path>
+                        <path d="M15.5 8.5a5 5 0 0 1 0 7"></path>
+                    </svg>
+                    <svg class="sound-icon-off" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M11 5 6 9H2v6h4l5 4V5z"></path>
+                        <line x1="23" y1="9" x2="17" y2="15"></line>
+                        <line x1="17" y1="9" x2="23" y2="15"></line>
+                    </svg>
+                </button>
             </div>
-        </article>
-
-        <article class="card card-search">
-            <h2>Search Controls</h2>
-            <div class="search-field" role="search">
+        </header>
+        <a class="skip-link" href="#controls">Skip to controls</a>
+        <main class="wrap">
+            <section class="hero">
+                <p class="kicker">ISO/IEC 27001:2022 · Annex A</p>
+                <h1 class="hero-title">Control Bento</h1>
+                <p class="hero-sub">The 93 Annex A controls, grouped by type. Search by ID, title or description — open any control for implementation guidance and evidence examples.</p>
+                <div class="hero-stats">
+                    <div class="stat"><strong id="stat-total">93</strong><span>controls</span></div>
+                    <div class="stat"><strong>4</strong><span>types</span></div>
+                    <div class="stat"><strong>2022</strong><span>edition</span></div>
+                </div>
+            </section>
+            <section class="search-card" role="search">
                 <div class="search-row">
-                    <input
-                            id="controlSearch"
-                            class="search-input"
-                            type="search"
-                            placeholder="Search A.5.18, access rights, remote working..."
-                            aria-label="Search ISO 27001 controls"
-                            aria-describedby="search-note search-tip"
-                    />
-                    <button class="btn" type="button" id="clearSearch">Clear</button>
+                    <input id="control-search" class="search-input" type="search" placeholder="Search A.5.18, access rights, remote working…" aria-label="Search ISO 27001 controls" autocomplete="off" />
+                    <button class="btn" type="button" id="clear-search">Clear</button>
                 </div>
-                <div class="search-meta" style="margin-top: 10px;">
-                    <span id="resultsCount" aria-live="polite" aria-atomic="true">Showing 93 of 93</span>
-                    <span id="activeFilter" class="filter-pill" aria-live="polite"
-                          aria-atomic="true">No active filter</span>
-                </div>
-                <div class="search-notes">
-                    <p class="note" id="search-note">Search is case-insensitive and matches ID, title, and
-                        description.</p>
-                    <p class="note" id="search-tip">Tip: try "A.8", "network", "screening", or "cloud".</p>
-                </div>
-            </div>
-        </article>
-
-        <article class="card card-summary">
-            <h2>Section Summary</h2>
-            <div class="summary-list">
-                <button class="summary-item" type="button" data-toggle="organizational" aria-expanded="true"
-                        aria-controls="list-organizational">
-                    <span>Organizational (A.5)</span>
-                    <strong><span data-total="organizational">0</span></strong>
-                </button>
-                <button class="summary-item" type="button" data-toggle="people" aria-expanded="true"
-                        aria-controls="list-people">
-                    <span>People (A.6)</span>
-                    <strong><span data-total="people">0</span></strong>
-                </button>
-                <button class="summary-item" type="button" data-toggle="physical" aria-expanded="true"
-                        aria-controls="list-physical">
-                    <span>Physical (A.7)</span>
-                    <strong><span data-total="physical">0</span></strong>
-                </button>
-                <button class="summary-item" type="button" data-toggle="technological" aria-expanded="true"
-                        aria-controls="list-technological">
-                    <span>Technological (A.8)</span>
-                    <strong><span data-total="technological">0</span></strong>
-                </button>
-            </div>
-        </article>
-
-        <article class="section-block" data-section="organizational" id="section-organizational">
-            <div class="section-header">
-                <div>
-                    <div class="eyebrow">A.5</div>
-                    <h3>Organizational Controls</h3>
-                    <div class="section-meta">
-                        <span data-count="organizational">0</span> of
-                        <span data-total="organizational">0</span> controls
+                <div class="search-meta">
+                    <span id="results-count" aria-live="polite">Showing 93 of 93</span>
+                    <div class="type-filters" role="group" aria-label="Filter by control type">
+                        <button type="button" class="tag tag-iso is-on" data-filter="organizational" aria-pressed="true">Organizational</button>
+                        <button type="button" class="tag tag-tool is-on" data-filter="people" aria-pressed="true">People</button>
+                        <button type="button" class="tag tag-security is-on" data-filter="physical" aria-pressed="true">Physical</button>
+                        <button type="button" class="tag tag-web is-on" data-filter="technological" aria-pressed="true">Technological</button>
                     </div>
                 </div>
-            </div>
-            <div class="control-list" data-list="organizational" id="list-organizational" role="list"></div>
-            <div class="section-empty" data-empty="organizational" role="status" aria-live="polite">No matching
-                controls.
-            </div>
-        </article>
-
-        <article class="section-block" data-section="people" id="section-people">
-            <div class="section-header">
-                <div>
-                    <div class="eyebrow">A.6</div>
-                    <h3>People Controls</h3>
-                    <div class="section-meta">
-                        <span data-count="people">0</span> of
-                        <span data-total="people">0</span> controls
+            </section>
+            <div id="controls">
+                <section class="control-section" id="section-organizational" data-section="organizational">
+                    <div class="section-head">
+                        <h2><span class="section-code">A.5</span> Organizational</h2>
+                        <span class="section-count"><span data-count="organizational">0</span> controls</span>
                     </div>
-                </div>
-            </div>
-            <div class="control-list" data-list="people" id="list-people" role="list"></div>
-            <div class="section-empty" data-empty="people" role="status" aria-live="polite">No matching controls.</div>
-        </article>
-
-        <article class="section-block" data-section="physical" id="section-physical">
-            <div class="section-header">
-                <div>
-                    <div class="eyebrow">A.7</div>
-                    <h3>Physical Controls</h3>
-                    <div class="section-meta">
-                        <span data-count="physical">0</span> of
-                        <span data-total="physical">0</span> controls
+                    <div class="control-grid" data-list="organizational" role="list"></div>
+                </section>
+                <section class="control-section" id="section-people" data-section="people">
+                    <div class="section-head">
+                        <h2><span class="section-code">A.6</span> People</h2>
+                        <span class="section-count"><span data-count="people">0</span> controls</span>
                     </div>
-                </div>
-            </div>
-            <div class="control-list" data-list="physical" id="list-physical" role="list"></div>
-            <div class="section-empty" data-empty="physical" role="status" aria-live="polite">No matching controls.
-            </div>
-        </article>
-
-        <article class="section-block" data-section="technological" id="section-technological">
-            <div class="section-header">
-                <div>
-                    <div class="eyebrow">A.8</div>
-                    <h3>Technological Controls</h3>
-                    <div class="section-meta">
-                        <span data-count="technological">0</span> of
-                        <span data-total="technological">0</span> controls
+                    <div class="control-grid" data-list="people" role="list"></div>
+                </section>
+                <section class="control-section" id="section-physical" data-section="physical">
+                    <div class="section-head">
+                        <h2><span class="section-code">A.7</span> Physical</h2>
+                        <span class="section-count"><span data-count="physical">0</span> controls</span>
                     </div>
+                    <div class="control-grid" data-list="physical" role="list"></div>
+                </section>
+                <section class="control-section" id="section-technological" data-section="technological">
+                    <div class="section-head">
+                        <h2><span class="section-code">A.8</span> Technological</h2>
+                        <span class="section-count"><span data-count="technological">0</span> controls</span>
+                    </div>
+                    <div class="control-grid" data-list="technological" role="list"></div>
+                </section>
+            </div>
+            <p class="empty-note" id="empty-note" hidden>No controls match your search.</p>
+        </main>
+        <footer class="footer">
+            <div class="footer-inner">
+                <p class="footer-note">© 2026 Marcus Nightingale · Data: <a href="./controls.json">controls.json</a></p>
+                <p class="footer-links">
+                    <a href="https://mnightingale.dev">Home</a>
+                    <a href="https://www.iso.org/standard/27001">ISO 27001</a>
+                    <a href="https://github.com/Marcus-Nightingale">GitHub</a>
+                </p>
+            </div>
+        </footer>
+        <div class="modal-backdrop" id="modal" hidden>
+            <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1" id="modal-panel">
+                <button class="modal-close" type="button" id="modal-close">Close</button>
+                <p class="modal-kicker" id="modal-id">A.5.1</p>
+                <h2 class="modal-title" id="modal-title">Control title</h2>
+                <p><span class="tag" id="modal-type">Organizational</span></p>
+                <div class="modal-body">
+                    <h3>Overview</h3>
+                    <p id="modal-overview"></p>
+                    <h3>Core points</h3>
+                    <p id="modal-core"></p>
+                    <h3>In practice</h3>
+                    <p id="modal-practice"></p>
+                    <h3>Evidence examples</h3>
+                    <ul id="modal-evidence"></ul>
+                    <p class="modal-links"><a id="modal-isms" href="#">ISMS.online →</a> <a id="modal-hightable" href="#">Hightable →</a></p>
                 </div>
-            </div>
-            <div class="control-list" data-list="technological" id="list-technological" role="list"></div>
-            <div class="section-empty" data-empty="technological" role="status" aria-live="polite">No matching
-                controls.
-            </div>
-        </article>
-
-        <article class="card card-footer">
-            <h2>Additional ISO Resources</h2>
-            <nav aria-label="ISO resources">
-                <ul class="footer-links">
-                    <li itemscope itemtype="https://schema.org/Dataset">
-                        <a href="https://www.iso.org/standard/27001" rel="external noopener noreferrer" itemprop="url">
-                            <span class="footer-link-label" itemprop="name">ISO/IEC 27001:2022</span>
-                            <span class="footer-link-meta">Standard</span>
-                            <meta itemprop="description" content="Information security, cybersecurity and privacy protection — Information security management systems — Requirements"/>
-                            <meta itemprop="creator" content="International Organization for Standardization"/>
-                        </a>
-                    </li>
-                    <li itemscope itemtype="https://schema.org/Dataset">
-                        <a href="https://www.iso.org/standard/88435.html" rel="external noopener noreferrer" itemprop="url">
-                            <span class="footer-link-label" itemprop="name">ISO/IEC 27001:2022/Amd 1:2024</span>
-                            <span class="footer-link-meta">Standard</span>
-                            <meta itemprop="description" content="Information security, cybersecurity and privacy protection — Information security management systems — Requirements — Amendment 1: Climate action changes"/>
-                            <meta itemprop="creator" content="International Organization for Standardization"/>
-                        </a>
-                    </li>
-                    <li itemscope itemtype="https://schema.org/Dataset">
-                        <a href="https://www.iso.org/standard/75652.html" rel="external noopener noreferrer" itemprop="url">
-                            <span class="footer-link-label" itemprop="name">ISO 27002:2022</span>
-                            <span class="footer-link-meta">Standard</span>
-                            <meta itemprop="description" content="Information security, cybersecurity and privacy protection — Information security controls"/>
-                            <meta itemprop="creator" content="International Organization for Standardization"/>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="footer-meta">
-                <span>Last updated: February 12, 2026</span>
-                <span>Data source: <a href="controls.json" rel="related">controls.json</a></span>
-            </div>
-        </article>
-    </section>
-</main>
-
-<button class="theme-fab" id="btnTheme" type="button" aria-pressed="false" aria-label="Switch to dark theme"
-        title="Switch to dark theme">
-    <i class="ph-duotone ph-sun-horizon" aria-hidden="true"></i>
-    <i class="ph-duotone ph-cloud-moon" aria-hidden="true"></i>
-    <span class="sr-only">Toggle theme</span>
-</button>
-
-<a class="coffee-fab" href="https://buymeacoffee.com/marcus.nightingale" target="_blank"
-   rel="noopener noreferrer" aria-label="Buy me a pizza" title="Buy me a pizza">
-    <i class="ph-duotone ph-pizza" aria-hidden="true"></i>
-</a>
-
-<button class="back-to-top" id="btnTop" type="button" aria-label="Scroll to top" title="Scroll to top">
-    <i class="ph-duotone ph-arrow-up" aria-hidden="true"></i>
-</button>
-
-<div class="modal-backdrop" id="control-modal" hidden aria-hidden="true">
-    <div class="modal-panel" id="control-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title"
-         aria-describedby="modal-desc" tabindex="-1">
-        <button class="modal-close" type="button" id="control-modal-close" aria-label="Close dialog">Close</button>
-        <div class="modal-header">
-            <span class="modal-kicker" id="modal-id">A.5.1</span>
-            <h2 class="modal-title" id="modal-title">Control Title</h2>
-            <span class="modal-tag" id="modal-type">Organizational</span>
-        </div>
-        <div class="modal-overview">
-            <span class="modal-label">Overview</span>
-            <p class="modal-desc" id="modal-desc">Control description.</p>
-        </div>
-        <div class="modal-grid">
-            <div class="modal-item span-2" id="modal-summary-wrap">
-                <span class="modal-label" id="modal-summary-label">Control summary</span>
-                <span class="modal-text" id="modal-summary">Summary detail.</span>
             </div>
         </div>
-        <div class="modal-details" id="modal-details" hidden></div>
-    </div>
-</div>
-<script defer src="https://cloud.umami.is/script.js" data-website-id="ed8df59c-e076-4528-86be-d8a1728edc47"></script>
-<script src="https://mnightingale.dev/bento-corners/bento-corners.js" defer></script>
-<script src="app.js" defer></script>
-</body>
+        <div class="mini-search" id="mini-search" role="search" aria-label="Quick control search">
+            <div class="mini-search-row">
+                <span class="mini-search-drag" id="mini-search-drag" aria-hidden="true">⋮⋮</span>
+                <span class="mini-search-bar" id="mini-search-bar">
+                    <input id="mini-search-input" type="search" placeholder="Search controls…" aria-label="Search controls" autocomplete="off" />
+                </span>
+                <button class="mini-search-min" id="mini-search-min" type="button" aria-label="Minimise search">
+                    <span class="min-icon-min" aria-hidden="true">–</span>
+                    <span class="min-icon-open" aria-hidden="true">⌕</span>
+                </button>
+            </div>
+            <div class="mini-search-tags" role="group" aria-label="Filter by control type">
+                <button type="button" class="tag tag-iso is-on" data-filter="organizational" aria-pressed="true">Org</button>
+                <button type="button" class="tag tag-tool is-on" data-filter="people" aria-pressed="true">Ppl</button>
+                <button type="button" class="tag tag-security is-on" data-filter="physical" aria-pressed="true">Phy</button>
+                <button type="button" class="tag tag-web is-on" data-filter="technological" aria-pressed="true">Tec</button>
+            </div>
+        </div>
+        <canvas class="corner-ascii" id="corner-ascii" aria-hidden="true"></canvas>
+        <button class="to-top" id="to-top" type="button" aria-label="Back to top">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="m18 15-6-6-6 6"></path>
+            </svg>
+        </button>
+        <script src="./controls-data.js" defer></script>
+        <script src="./app.js" defer></script>
+        <script src="./sound.min.js" defer></script>
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="ed8df59c-e076-4528-86be-d8a1728edc47"></script>
+    </body>
 </html>
