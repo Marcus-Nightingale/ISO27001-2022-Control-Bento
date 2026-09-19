@@ -1,7 +1,6 @@
 # ISO27001:2022 - Control Bento
 
 Practitioner-focused reference for ISO/IEC 27001:2022 Annex A controls.
-Currently being rebuilt from scratch — page coming soon.
 
 ## Data Source
 
